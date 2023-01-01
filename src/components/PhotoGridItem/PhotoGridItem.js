@@ -24,6 +24,7 @@ const PhotoGridItem = ({ id, src, alt, tags }) => {
             `}
           />
           <source
+            type="image/jpeg"
             srcSet= {`
               ${partialPath}.jpg 1x,
               ${partialPath}@2x.jpg 2x,
